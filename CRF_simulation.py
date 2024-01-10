@@ -8,7 +8,7 @@ path = r"C:\Users\Administrator\Documents\Dr Abidemi\Study CSP 1019\Data\CSV"
 
 all_forms = glob.glob(path + '/*.csv')
 
-def Simu(form_no, sample_no):
+#def Simu(form_no, sample_no):
     """
     Generate simulated data with missing values based on the distribution of existing values.
 
@@ -66,7 +66,7 @@ def Simu(form_no, sample_no):
     # Populate the new DataFrame with the values from the placeholder array
     formSimu = pd.DataFrame(tmp, columns=columns)
 
-    return formSimu
+    #return formSimu
 
 
 
