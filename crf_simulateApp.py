@@ -43,7 +43,7 @@ if uploaded_file is not None:
         st.subheader("Download Simulated Data:")
         csv_data = simulated_data.to_csv(index=False)
         st.download_button(
-            label="Download Simulated Data",
+            label="Download Predicted Results",
             data=io.StringIO(csv_data).read(),
             file_name=filename,
             key='download_button',
