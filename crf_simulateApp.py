@@ -1,4 +1,4 @@
-#from CRF_simulation import Simu
+from CRF_simulation import Simu
 import streamlit as st
 import pandas as pd
 import io
